@@ -1,13 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-.vs/ProjectSettings.json
-.vs/slnx.sqlite
-.vs/VSWorkspaceState.json
-.vs/mhoch3/v15/.suo
-data
+# C extensions
+*.so
 
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-*.xlsx
-!switzerland_long_lat_renaming.csv
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
 # Django stuff:
 *.log
 local_settings.py
@@ -47,49 +94,39 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
 
-__pycache__
+# SageMath parsed files
+*.sage.py
 
-# Folder view configuration files
-.DS_Store
-Desktop.ini
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Thumbnail cache files
-._*
-Thumbs.db
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
+# Rope project settings
+.ropeproject
 
-# Compiled Python files
-*.pyc
+# mkdocs documentation
+/site
 
-# Compiled C++ files
-*.out
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Application specific files
-venv
-node_modules
-.sass-cache
-
-# miscellaneous
 .idea/
-__pycache__/
-data/
-virtual/
-/strat_developer/archive/fxcm_log
-.ipynb_checkpoints
+config.yml
 
-*.xml
-*.iml
-*.csv
-
-*.zip
-*.ipynb
-!EDA_Storytelling_Switzerland.ipynb
-*.yml
-
-#TEMP
-testing.ipynb
-get_db_data.ipynb
+# Pyre type checker
+.pyre/
